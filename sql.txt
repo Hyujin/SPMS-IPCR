@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `printviews`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost`
+ SQL SECURITY DEFINER VIEW `printviews`  AS  select `a`.`id` AS `id`,concat(`a`.`first_name`,'
+ ',`a`.`middle_name`,' ',`a`.`last_name`) AS `full_name`,`a`.`division` AS `division`,`a`.`reviewed` AS `reviewed`,
+`a`.`approved` AS `approved`,`a`.`start_date` AS `start_date`,`a`.`end_date` AS `end_date`,`a`.`created_at` AS `created_at`,
+`b`.`output` AS `output`,`b`.`success_indicator` AS `success_indicator`,`b`.`actual_accomplishments` AS `actual_accomplishments`,
+`b`.`tag` AS `tag` from (`preforms` `a` left join `forms` `b` on((`b`.`form_id` = `a`.`id`))) ;

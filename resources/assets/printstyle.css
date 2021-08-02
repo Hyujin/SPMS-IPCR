@@ -1,0 +1,117 @@
+body{
+    background-color: lightgrey;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+td{
+    height: 80px;
+    padding: 5px;
+}
+.tdk{
+    height:50px;
+}
+.table2{
+    width: 100%;
+}
+.tde{
+    height: 15%;
+}
+
+
+.main{
+    background-color: white;
+    margin-left: 76px;
+    width: 1200px;
+    height: 100%;
+}
+.wrapper{
+    margin-left: 70px;
+
+}
+.header{
+    margin-top: 40px;
+    width: 50%;
+    height: 50%;
+}
+p{
+     font-size: 13px;
+}
+.p1{
+    margin-top: 0px;
+
+}
+.p2{
+     margin-top: -10px;
+    margin-bottom: -1px;
+
+}
+.p3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.p5{
+    text-align: center;
+    margin-top: 55px;
+    margin-left: 320px;
+}
+.ps5{
+    text-align: center;
+    margin-top: -29px;
+    margin-left: 640px;
+}
+.p6{
+    text-align: center;
+    margin-top: -13px;
+    margin-left: 470px;
+}
+.p7{
+    margin-top: -1px;
+
+}
+.p8{
+   text-align: center;
+}
+.p9{
+    margin-top: -2px;
+    text-align: center;
+}
+
+.vl1{
+    margin-left: -1px;
+    width: 92.4%;
+    border: 1.1px solid black;
+}
+.t12{
+        margin-top: -90px;
+        margin-left: 570px;
+ }
+
+.t1{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

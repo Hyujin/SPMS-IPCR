@@ -1,0 +1,120 @@
+
+@media print {
+
+    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+      display: none;
+    }
+
+        
+    @page {
+      size: A4;
+    }
+
+
+    @page :left {
+      margin-left: 3cm;
+    }
+
+    @page :right {
+      margin-left: 4cm;
+    }
+
+
+    td{
+    height: 80px;
+    }
+    .t12{
+        margin-top: -90px;
+        margin-left: 570px;
+    }
+    .tde{
+        height: 15%;
+    }
+    .table2{
+        width: 100%;
+    }
+    .tdk{
+        height: 50px;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    
+    table, figure {
+      page-break-inside: avoid;
+    }
+
+
+
+    .main{
+        background-color: white;
+        width: 1000px;
+        height: 100%;
+    }
+
+    .header{
+        width: 50%;
+        height: 50%;
+    }
+    p{
+         font-size: 12px;
+    }
+    .p1{
+        margin-top: 0px;
+    }
+    .p2{
+        margin-top: -10px;
+        margin-bottom: -1px;
+
+    }
+    .p3{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .p5{
+        text-align: center;
+        margin-top: 55px;
+        margin-left: 320px;
+    }
+    .ps5{
+        text-align: center;
+        margin-top: -27px;
+        margin-left: 640px;
+    }
+    .p6{
+        text-align: center;
+        margin-top: -10px;
+        margin-left: 470px;
+    }
+    .p7{
+        margin-top: -1px;
+
+    }
+    .p8{
+       text-align: center;
+    }
+    .p9{
+        margin-top: -2px;
+        text-align: center;
+    }
+
+    .vl1{
+
+        width: 100%;
+        border: 1.1px solid black;
+    }
+
+    .t1{
+        margin-top: 15px;
+    }
+
+}
+@page{
+    marin:0 ;
+}
