@@ -17,7 +17,7 @@ class printController extends Controller
         $form_id  = request()->id; /* Sent form_id through post hidden input instead from route parameter due to issues */
  		$id  = request()->id;
 
- 		$operations1 = DB::table('forms')->selectRaw('*')->whereRaw("form_id = '$form_id' and tag = 1")->orderBy('id')->get();
+ 	   $operations1 = DB::table('forms')->selectRaw('*')->whereRaw("form_id = '$form_id' and tag = 1")->orderBy('id')->get();
 
         $operations2 = DB::table('forms')->selectRaw('*')->whereRaw("form_id = '$form_id' and tag = 2")->orderBy('id')->get();
 
